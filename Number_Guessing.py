@@ -39,8 +39,7 @@ def main():
                         print("Correct!")
                         score+=1
                         break
-                    else:
-                        print('Incorrect! Hint:{}'.format(guess2))
+                    print('Incorrect! Hint:{}'.format(guess2))
                 if guess != answer:
                     print('The correct answer was: {}'.format(answer))
                     score-=1
