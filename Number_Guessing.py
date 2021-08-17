@@ -2,6 +2,10 @@ import random
 import operator
 def random_cal():
     """
+    Display three numbers in specific sequential and ask the user to guess the fourth one.
+
+    Returns:
+        (result) the result of calculation for the fourth number in the sequential.
     """
     ops={'+':operator.add,'-':operator.sub,'*':operator.mul,'/':operator.truediv,'**':operator.pow}
     num1=random.randint(0,10)
@@ -14,6 +18,13 @@ def random_cal():
     return result
 
 def ask_question(answer,guess):
+    """
+    Compare the value of the answer and guess to determine the input is right or wrong.
+
+    Returns:
+        (answer) the result of the comparison operator.
+        (guess) the result message of the comparison operator.
+    """
     if guess < answer:
         guess='your guess less than answer'
         answer=False
