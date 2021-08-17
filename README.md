@@ -36,7 +36,7 @@ you can install it and learn more about it here: <a href="https://www.programiz.
 
 `python Number_Guessing.py`
 
-<a href="https://ibb.co/7Sm4HJz"><img src="https://i.ibb.co/tHrXSMh/output-onlinegiftools-1.gif" alt="output-onlinegiftools-1" border="0"></a>  
+[!Number Guessing Game Demo](demo/Animation.gif)
 
 ## :diamond_shape_with_a_dot_inside: Credits <a name="credits"></a>
 <a href="https://stackoverflow.com/">
